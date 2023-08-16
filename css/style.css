@@ -1,0 +1,434 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Victor Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    line-height: 1.5;
+    background-color: rgb(171, 147, 122);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo {
+    font-family: 'Victor Mono', monospace;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    max-width: 70rem;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.money {
+    border-radius: 10px;
+}
+.gmo {
+    border-radius: 10px;
+}
+.world {
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Victor Mono', monospace;
+    color: black;
+}
+
+h2 {
+    font-family: 'Victor Mono', monospace;
+    color: black;
+}
+
+p {
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.75rem;
+    color: rgb(0, 0, 0);
+    margin-top: 0.5rem;
+}
+
+a {
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.75rem;
+}
+
+figcaption {
+    font-family: 'Victor Mono', monospace;
+    font-size: 0.77rem;
+    color: white;
+}
+.logo-space{
+    padding-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    margin-top: 2.5rem;
+}
+
+nav ul li {
+    margin-bottom: 2rem;
+    background-color: #642218;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    width: 30rem;
+}
+
+nav ul li:hover {
+    background-color: #c99638;
+}
+
+.article-1 {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.8px solid white;
+}
+
+.article-2 {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-bottom: 0.8px solid white;
+}
+
+.article-3 {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
+
+.float-parent::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.float-minor {
+    padding: 1rem;
+}
+
+.social-icon i {
+    padding-right: 0.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer h2 {
+    border-top: 0.8px solid white;
+    padding-top: 3.5rem;
+}
+
+.copyright {
+    margin-bottom: 2.5rem;
+}
+
+/* Media Query Mobile View to 560px */
+@media screen and (max-width: 35rem) {
+    .logo-space {
+        width: 15rem;
+        height: auto;
+        margin: auto;
+    }
+    
+    nav ul a {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+    
+    /* Tag-line Style */
+    /* Masthead & Tag-line Style */
+    .tag-line {
+        background-image: url('../img/masthead.jpg');
+        background-color: #c99638;
+        height: 15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .tag-line h1 {
+        font-size: 2rem;
+        color: black;
+        border: rgb(0, 0, 0);
+        text-align: center;
+        padding: 5.3rem 0;
+    }
+    .tag-line {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    .content {
+        padding: 0 1rem;
+    }
+    figure figcaption {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/* Media Query Tablet View from 560px to 1280  */
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+        max-width: 55rem;
+        margin: auto;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+   
+    nav ul li {
+        margin-bottom: 2rem;
+        background-color: #642218;
+        text-align: center;
+        margin: 0 1rem;
+        width: 45%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .tag-line {
+        background-image: url('../img/masthead.jpg');
+        background-color: #c99638;
+        height: 15rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .tag-line h1 {
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 4.5rem 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .float-parent figure figcaption {
+        text-align: center;
+    }
+
+    .content {
+        padding: 0 1rem;
+    }
+
+    .img-text {
+        float: left;
+        width: 40%;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    .float-minor {
+        float: left;
+        width: 35%;
+        margin-left: 2.6rem;
+    }
+
+    .float-parent {
+        margin: auto;
+    }
+    footer {
+        text-align: center;
+    }
+    .social-icon i {
+    padding-right: 0.5rem;
+    font-size: 2rem;
+    }
+}
+
+/* Media Query Wide Tablet View from 832px to 1280  */
+@media screen and (min-width: 52rem) and (max-width: 80rem) {
+     .float-minor {
+        float: left;
+        width: 40%;
+        padding: 1.5rem;
+    }
+}
+
+/* Media Query Desktop View for 1280px & larger */
+@media screen and (min-width: 80rem) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 1.25rem;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+
+    figcaption {
+        font-size: 1.25rem;
+    }
+  
+
+    /* Navigation Style */
+    nav ul li {
+        background-color: #642218;
+        text-align: center;
+        margin-left: 4rem;
+        width: 13rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    nav ul li a {
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; 
+        margin-bottom: 2rem; 
+    }
+
+    .tag-line {
+        background-image: url('../img/masthead.jpg');
+        background-color: #c99638;
+        height: 25rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .tag-line h1 {
+        font-size: 5.5rem;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        left: 17%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+
+    .grid img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .grid content {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    figure {
+        margin: 1rem 0;
+    }
+
+    .float-minor {
+        float: left;
+        width: 30%;
+        text-align: center;
+        margin-left: 1.7rem;
+        padding: 1rem;
+
+    }
+    .ani {
+        height: 292px;
+    }
+    .form {
+        height: -100px;
+    }
+
+    .float-parent {
+        margin: 2rem auto;
+    }
+
+    /* FOOTER STYLE */
+    .social-icon i {
+        padding-right: 0.7rem;
+        font-size: 2.5rem;
+        }
+}
